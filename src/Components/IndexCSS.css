@@ -1,0 +1,107 @@
+.textAndImage {
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url(./images/SERVICES.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+/* Services and image in background ends */
+
+
+.textAndImage h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* About Us Css */
+
+/* Navbar start */
+/* color of navbar icons changes with this */
+.insprofile{
+    color: rgb(255, 255, 255) !important;
+}
+/* Navbar ends */
+
+/* Div in navbar for color and display setting for image */
+.colorTillFirstDiv{
+    background-image: linear-gradient(to bottom right, #032130 , white );
+    height: 50vh;
+}
+
+/* Name and title background  */
+.titlebackground{
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+
+/* image setting  */
+/* .imagebackground{
+    height: 5rem;
+} */
+
+.sizeseconddiv{
+    height: 30vh;
+}
+
+.marginondivs{
+    margin-top: 20%;
+}
+
+.titlePictureSeting{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% !important;
+    margin-top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.aboutmetext{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin-left: 2%;
+    margin-top:20%;
+}
+
+.linksicon{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Links and courses available in the div above footer */
+.marginofcoursesdiv{
+ margin-top: auto;
+}
+@media (max-width: 767.98px ) and (min-width:480px)
+{
+    .titlepictureseting{
+        width: 200px;
+        height: 200px;
+        border-radius: 50% !important;
+        margin-top: -15%;
+        margin-left: 0px;
+        
+    }
+    .aboutmetext{
+        color: rgb(0, 0, 0);
+        text-align: justify;
+
+        margin-left: 2%;
+    }
+    .sizeseconddiv{
+        height: 50vh;
+        margin-bottom: 20vh;
+    }
+}
