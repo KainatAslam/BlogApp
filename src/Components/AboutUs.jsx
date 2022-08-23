@@ -29,17 +29,17 @@ const AboutUS = () => {
             </div>
         </nav>
         {/* <!-- Navbar instructor Profile Ends--> */}
-        <div class="titlebackground mt-2 ">
-            <h2 class="display-3">About Us</h2>
-            <h4 class="lead">Web Designs Blogs</h4>
+        <div class="titleBackground  ">
+            <h2 class="display-3">Web Design</h2>
+            <h4 class="lead">Blogs</h4>
         </div>
         <div class="container-fluid borders">
-            <div class="row sizeseconddiv">
+            <div class="row sizeSecondDiv">
                
                 <div class="col-sm-4">
-                    <img src={Profile} class="titlePictureSeting " alt="" />
+                    <img src={Profile} class="titlePictureSetting " alt="" />
                 </div>
-                <div class="col-sm-8  ">
+                <div class="col-sm-8">
                     <p class="lead aboutmetext  py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nisi eius quia saepe 
                         recusandae corrupti repellendus accusamus voluptatum ullam suscipit nam, temporibus exercitationem 
                         officiis natus harum, deleniti iste ipsum perspiciatis.
@@ -51,6 +51,15 @@ const AboutUS = () => {
     </div>
     </div>
     
+    <div className="container-fluid">
+
+            <div className="col-4">
+                <h3>History</h3>
+                <p>Long way to go</p>
+                <p>Long way to go</p>
+            </div>
+            <div className="col-8"></div>
+    </div>
         </>
     )
 }

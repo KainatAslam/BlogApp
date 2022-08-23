@@ -1,5 +1,5 @@
 import React from "react";
-
+import cardImage from './images/background.jpg'
 const Navbar = () =>{
     return(
         <>
@@ -30,8 +30,8 @@ const Navbar = () =>{
         <hr  class="border border-body mx-5 "/>
         {/* Navbar Ends */}
 
-        <div class="px-0">
-        <div class="row">
+        <div class="px-0 mb-5">
+        <div class="row ">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-centered">
                 <div class="textAndImage">
                    <h2>Best Blogs</h2>
@@ -39,23 +39,80 @@ const Navbar = () =>{
             </div>
         </div>
     </div>
-       <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum recusandae iusto soluta dolores assumenda quidem sapiente illo cumque quis, odio, eligendi architecto debitis ab deleniti voluptates quasi. A, explicabo quidem.
-        Quasi sed iure obcaecati possimus temporibus fuga inventore aut excepturi rerum placeat aspernatur, delectus consectetur vero aliquid sint praesentium iusto. Ex, cumque molestiae et eos sit quos perspiciatis quo fugit?
-        Laborum officia ipsa sequi perferendis necessitatibus fugiat ab animi, atque dolores dignissimos beatae aliquid totam aspernatur, voluptatem fuga sit, sapiente ducimus deserunt! Possimus consequuntur necessitatibus obcaecati repudiandae veritatis tempora alias.
-        Dignissimos debitis explicabo rerum. Et reprehenderit possimus deleniti quidem quos? Hic, repellendus! Doloribus incidunt optio impedit doloremque inventore quibusdam excepturi odit natus. Reprehenderit aliquam fugit sapiente accusantium est animi obcaecati!
-        A cupiditate distinctio mollitia ducimus facilis animi accusamus cumque laboriosam dolores possimus aperiam voluptatum reprehenderit rem eaque ab iure, perspiciatis saepe eveniet, incidunt ex. Doloribus quibusdam temporibus repellendus delectus deserunt?
-        Laboriosam consectetur earum repellat molestiae suscipit necessitatibus fugit facilis alias dicta hic exercitationem reiciendis, iste dolorem laborum enim, minus numquam labore totam quos cum, quia dignissimos fugiat. Totam, enim officiis.
-        Quisquam aliquid qui molestiae fugit pariatur laborum optio reprehenderit velit voluptas consequatur est unde vel molestias nam nisi aspernatur sint obcaecati repellendus, dolorem voluptatibus quis enim amet iusto nostrum. Suscipit.
-        Optio voluptates, deleniti, enim sapiente ut iure officia consectetur veniam, est iste numquam! Vel pariatur nobis blanditiis ducimus sequi suscipit veniam, totam illum. Assumenda consequatur nemo dolorem commodi sit asperiores.
-        Nostrum alias excepturi a expedita natus quae quas itaque corrupti, eveniet accusantium molestiae sequi, commodi obcaecati quis laborum consequuntur recusandae molestias ducimus culpa rem, tenetur maiores animi unde! Corporis, voluptatum?
-        Soluta deserunt blanditiis qui magnam consequatur exercitationem dignissimos repellendus? Suscipit voluptas fuga optio dolores commodi assumenda, tenetur magnam ratione, deleniti laborum reprehenderit recusandae doloribus culpa rem cupiditate, libero quae sit!
-        Est deleniti officia quam sint inventore asperiores voluptas amet perspiciatis. Tempora nam labore, saepe iste assumenda vitae veritatis perferendis, autem numquam, ex animi molestiae magnam in vero. Natus, inventore libero?
-        Assumenda recusandae beatae non tempore soluta error voluptatum, ut, corrupti quos quam suscipit reiciendis corporis quo eius iste magni accusantium dolore eligendi saepe tenetur, est dicta amet aut! Voluptatem, dolorum.
-        </p>
-
-      
+     
+<div className="container-fluid">
+<div className="row mt-5">
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 col-sm-12 col-lg-4">
+                <div className="card border-0">
+                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <div className="mx-5 px-5">
+                <h5 className="text-center my-2 ">Trends for Front End </h5>
+                    <p className="text-center" >Some quick example text to build on the card title 
+                    and make up the bulk of the card's content.</p>
+                    <a href="/"><h4 className="text-center text-decoration-none  ">Read More</h4></a>
+                </div>
+                </div>
+            </div>
+            
+  
         </div> 
+</div>
+      
         </>
     )
 }

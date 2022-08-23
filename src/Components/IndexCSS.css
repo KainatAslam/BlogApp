@@ -39,7 +39,8 @@
 }
 
 /* Name and title background  */
-.titlebackground{
+.titleBackground{
+
     text-align: center;
     color: rgb(255, 254, 254);
 }
@@ -49,7 +50,7 @@
     height: 5rem;
 } */
 
-.sizeseconddiv{
+.sizeSecondDiv{
     height: 30vh;
 }
 
@@ -57,10 +58,9 @@
     margin-top: 20%;
 }
 
-.titlePictureSeting{
+.titlePictureSetting{
     width: 300px;
     height: 300px;
-    border-radius: 50% !important;
     margin-top: 0%;
     display: block;
     margin-left: auto;
@@ -81,9 +81,7 @@
 }
 
 /* Links and courses available in the div above footer */
-.marginofcoursesdiv{
- margin-top: auto;
-}
+
 @media (max-width: 767.98px ) and (min-width:480px)
 {
     .titlepictureseting{
