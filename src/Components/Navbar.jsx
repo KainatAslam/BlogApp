@@ -1,5 +1,18 @@
 import React from "react";
 import cardImage from './images/background.jpg'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faCamera,
+    faClipboard
+} from "@fortawesome/free-solid-svg-icons";
+
+import {
+    faInstagram,
+    faFacebook,
+    faTwitter,
+    faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+
 const Navbar = () =>{
     return(
         <>
@@ -112,7 +125,28 @@ const Navbar = () =>{
   
         </div> 
 </div>
-      
+      {/* Footer */}
+
+{/* part 01 */}
+
+            {/* part 2 */}
+            <section className="bg-secondary p-5 mt-5">
+                <h2 className="text-sm text-white text-center fw-normal  font-serif">Let's get SOCIAL  </h2>
+                {/* icons */}
+                <div className=" text-center ml-[28rem] pt-12">
+                    <FontAwesomeIcon icon={faInstagram} className=" mx-3 h-9 w-6 text-white" />
+                    {/* facebook */}
+                    <FontAwesomeIcon icon={faFacebook} className=" mx-3 h-9 w-6 text-white" />
+                    {/* twitter */}
+                    <FontAwesomeIcon icon={faTwitter} className=" mx-3 h-9 w-6 text-white" />
+                    {/* linkdin */}
+                    <FontAwesomeIcon icon={faLinkedin} className=" mx-3 h-9 w-6 text-white" />
+                </div>
+
+               
+            </section>
+      {/* Footer */}
+
         </>
     )
 }
