@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path="" element={<Navbar />} />
         <Route path="/AboutUS" element={<AboutUS />} />
+        <Route path="/footer" element={<Footer />} />
       </Routes>
     </>
   );
