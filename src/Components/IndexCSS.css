@@ -21,13 +21,11 @@
     transform: translate(-50%, -50%);
 }
 
-
-
 /* About Us Css */
 
-/* Navbar start */
+/* Navbar About Us start */
 /* color of navbar icons changes with this */
-.insprofile{
+.NavbarABoutUs{
     color: rgb(255, 255, 255) !important;
 }
 /* Navbar ends */

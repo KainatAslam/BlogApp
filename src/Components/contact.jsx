@@ -7,7 +7,8 @@ const Contact = () => {
     return (
         <>
         <div className="fst-italic fw-bold fs-4">
-             OH, Hello</div>
+             OH, Hello
+        </div>
        
         </>
     );

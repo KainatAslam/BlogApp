@@ -7,22 +7,22 @@ const AboutUS = () => {
 <div class="container-fluid colorTillFirstDiv position-relative">
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
             
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#InstructorProfilenavabr">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#InstructorProfileNavbar">
                 <span class="navbar-toggler-icon "></span>
             </button>
-            <div class="collapse navbar-collapse" id="InstructorProfilenavabr">
+            <div class="collapse navbar-collapse" id="InstructorProfileNavbar">
                 <ul class="navbar-nav mx-auto py-5">
                     <li class="nav-item ">
-                        <a href="/" class="nav-link px-3 insprofile">Home</a>
+                        <a href="/" class="nav-link px-3 NavbarABoutUs">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link px-3 insprofile">Blogs</a>
+                        <a href="/" class="nav-link px-3 NavbarABoutUs">Blogs</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link px-3 insprofile">Contact Us</a>
+                        <a href="/" class="nav-link px-3 NavbarABoutUs">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link px-3 active insprofile">About Us</a>
+                        <a href="/" class="nav-link px-3 active NavbarABoutUs">About Us</a>
                     </li>
                     
                 </ul>

@@ -1,10 +1,7 @@
 import React from "react";
 import cardImage from './images/background.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faCamera,
-    faClipboard
-} from "@fortawesome/free-solid-svg-icons";
+
 
 import {
     faInstagram,
@@ -32,9 +29,9 @@ const Navbar = () =>{
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav  mx-auto my-2 fs-5 ">
                     <a class="nav-link text-body active " aria-current="page" href="/">Home</a>
-                    <a class="nav-link  text-body" href="/">Blogs</a>
-                    <a class="nav-link  text-body" href="/">Contact Us</a>
-                    <a class="nav-link  text-body"  href="/">About Us</a>
+                    <a class="nav-link  text-body" href="/blog">Blogs</a>
+                    <a class="nav-link  text-body" href="/contact">Contact Us</a>
+                    <a class="nav-link  text-body"  href="/AboutUs">About Us</a>
                   </div>
                 </div>
               </div>
@@ -57,7 +54,7 @@ const Navbar = () =>{
 <div className="row mt-5">
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 " alt="" style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
@@ -68,7 +65,7 @@ const Navbar = () =>{
             </div>
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 "alt=""  style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
@@ -79,7 +76,7 @@ const Navbar = () =>{
             </div>
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 " alt=""  style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
@@ -90,7 +87,7 @@ const Navbar = () =>{
             </div>
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 " alt="" style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
@@ -101,7 +98,7 @@ const Navbar = () =>{
             </div>
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 " alt=""  style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
@@ -112,7 +109,7 @@ const Navbar = () =>{
             </div>
             <div className="col-md-4 col-sm-12 col-lg-4">
                 <div className="card border-0">
-                <img  src={cardImage}  className=" mx-auto mt-2 " style={{height:'10rem' , width:'20rem'}}/>
+                <img  src={cardImage}  className=" mx-auto mt-2 " alt="" style={{height:'10rem' , width:'20rem'}}/>
                 <div className="mx-5 px-5">
                 <h5 className="text-center my-2 ">Trends for Front End </h5>
                     <p className="text-center" >Some quick example text to build on the card title 
