@@ -129,8 +129,10 @@ const Navbar = () =>{
 
 {/* part 01 */}
 
-            {/* part 2 */}
-            <section className="bg-secondary p-5 mt-5">
+           <div className="container-fluid bg-secondary p-5 mt-5" >
+            <div className="row">
+                <div className="col-6 position-relative">   
+                <section className="justify-center position-absolute top-50 start-50 translate-middle">
                 <h2 className="text-sm text-white text-center fw-normal  font-serif">Let's get SOCIAL  </h2>
                 {/* icons */}
                 <div className=" text-center ml-[28rem] pt-12">
@@ -145,6 +147,28 @@ const Navbar = () =>{
 
                
             </section>
+            </div>
+                <div className="col-3 text-white">
+                    <h4 className="text-center">Subscribe here!</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email address</label>
+                        <input type="email" class="form-control rounded" id="Email" aria-describedby="emailHelp"/>
+                        
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control rounded" id="exampleInputPassword1"/>
+                    </div>
+                    <div className="text-center">
+                    <button type="submit" class="btn btn-light px-5">Submit</button>
+                    </div>
+                    
+                </form>
+                </div>
+            </div>
+           </div>
+         
       {/* Footer */}
 
         </>

@@ -50,30 +50,19 @@
     height: 5rem;
 } */
 
-.sizeSecondDiv{
-    height: 30vh;
-}
 
-.marginondivs{
-    margin-top: 20%;
+
+.marginOnDivs{
+    margin-top: 10%;
 }
 
 .titlePictureSetting{
     width: 300px;
     height: 300px;
-    margin-top: 0%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  
  
 }
 
-.aboutmetext{
-    color: rgb(0, 0, 0);
-    text-align: justify;
-    margin-left: 2%;
-    margin-top:20%;
-}
 
 .linksicon{
     text-decoration: none;
@@ -87,19 +76,10 @@
     .titlepictureseting{
         width: 200px;
         height: 200px;
-        border-radius: 50% !important;
-        margin-top: -15%;
-        margin-left: 0px;
+      
+      
         
     }
-    .aboutmetext{
-        color: rgb(0, 0, 0);
-        text-align: justify;
-
-        margin-left: 2%;
-    }
-    .sizeseconddiv{
-        height: 50vh;
-        margin-bottom: 20vh;
-    }
+   
+    
 }
