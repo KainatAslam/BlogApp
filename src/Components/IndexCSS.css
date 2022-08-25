@@ -66,7 +66,13 @@
     text-decoration: none;
     color: #000000;
 }
-
+/* contact */
+.contact{
+    width: 56rem;
+}
+.list{
+    list-style: none;
+}
 /* Links and courses available in the div above footer */
 
 @media (max-width: 767.98px ) and (min-width:480px)
