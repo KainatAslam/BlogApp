@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="col-md-4 mt-8">
           {/* welcome */}
           <div className="welcome list-group-flush">
-            <h1 className="fst-italic fs-3 text-black ">Welcome</h1>
+            <h1 className="fst-italic fs-3 text-black mt-8">Welcome</h1>
             <p className="text-muted mt-4 mb-4">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus tempora tenetur explicabo architecto aperiam vitae
